@@ -1,6 +1,5 @@
+
 ::selection {
-    /* background-color: #000; */
-    /* color: #fff; */
     background: none;
 }
 * {
@@ -59,7 +58,6 @@ main {
 .overlay {
     position: absolute;
     inset: 0;
-    /* pointer-events: none; */
     z-index: 1;
     display: flex;
     flex-direction: column;

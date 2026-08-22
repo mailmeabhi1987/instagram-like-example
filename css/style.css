@@ -26,7 +26,7 @@ main {
 }
 .reels {
     height: 100%;
-    width: 400px;
+    width: 100%;
     margin: auto;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -257,4 +257,10 @@ main {
     opacity: 0;
   }
 
+}
+
+@media (min-width: 575px) {
+    .reels {
+        width: 400px;
+    }
 }
